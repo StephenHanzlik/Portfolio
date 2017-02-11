@@ -60,8 +60,9 @@ body{ margin:0px 0px; }
 }
 .github-logo {
   /*width: px;*/
-  width: 100px;
-  height: 5px;
+  width: 10%;
+  height: 10px;
+  align-self: flex-start;
 }
 
 h1{
@@ -74,9 +75,28 @@ h1{
 /*h6{
   font-family: sans-serif;
 }*/
+.icon {
+  width: auto;
+  height: 10px;
+}
+.iconList li {
+    display: inline-flex;
+    padding-right: 1.5rem;
+}
+.iconList li .icon {
+    height: 5rem;
+    transition: all 1s;
+}
+
+.iconList li .icon:hover {
+    height: 6.5rem;
+    -webkit-filter: invert(.8);
+}
+
 
 .nav-bar{
   background-color: transparent;
+  display: flex;
 }
 .header-title{
   font-family: sans-serif;;
@@ -85,6 +105,7 @@ h1{
   letter-spacing: 2.5px;
   font-weight: 590;
   margin-bottom: -  px;
+  padding-bottom: 100px;
 }
 .sub-head{
     font-family: "adobe-garamond-pro";
@@ -96,7 +117,7 @@ h1{
     font-style: italic;
     color: #fff;
     /*margin: 10px auto;*/
-    margin-bottom: -20px;
+    /*margin-bottom: 60px;*/
 }
 .nav-text{
   font-family: sans-serif;;
@@ -107,13 +128,14 @@ h1{
   font-style: normal;
   color: #fff;
   margin: 0;
+  padding-left: 15px;
   padding-top: 0;
   padding-bottom: 0;
   line-height: 1em;
 }
-.right-nav{
+/*.right-nav{
   margin-right: -100px;
-}
+}*/
 .nav-button{
   font-family: sans-serif;;
   font-size: 14px;
@@ -131,7 +153,7 @@ h1{
 }
 .nav-bar{
   padding-top: 30px;
-  margin-right: 10px;
+  /*margin-right: 10px;*/
 }
 .card-description{
   padding-bottom: 20px;

@@ -15,10 +15,21 @@
   <div id="wrapper">
   <div id="hero">
     <div class="row nav-bar nav-text">
-        <h1 class="col s3 nav-text">STEPHEN HANZLIK</h1>
-        <div class="col s5"></div>
-        <p class="right-nav col s2 nav-text">Portfolio</p>
-        <img class="col s2 github-logo" src="github-logo.png">
+      <p class="left-nav nav-text dropdown-button col s6 m2" data-activates='dropdown1'>Portfolio</a></p>
+      <ul id='dropdown1' class='dropdown-content'>
+         <li><a href="#!">Black Throated Wind</a></li>
+         <li class="divider"></li>
+         <li><a href="#!">Pi-OS Media Server</a></li>
+         <li class="divider"></li>
+         <li><a href="#">Egg-Pi Media Server</a></li>
+         <li class="divider"></li>
+         <li><a href="#!">Sunshine Daydream</a></li>
+      </ul>
+        <!-- <P class="col s3 nav-text">STEPHEN HANZLIK</P> -->
+        <!-- <div class="col s8"></div> -->
+        <div class="col s8 m8"></div>
+        <!-- <img class="github-logo col s1 m2" src="github-logo.png"> -->
+        <a class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons">add</i></a>
     </div>
     <!-- <nav class="nav-bar" role="navigation">
       <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo nav-text">STEPHEN HANZLIK</a>
@@ -39,9 +50,114 @@
     </div>
   </div>
   <div id="content">
-    <h4> I am a full-stack web developer familiar with both the NEAP and MEAN stacks.</h4>
+    <h4> I am a full-stack web developer famliar with both the NEAP and MEAN stacks.</h4>
     <p> My interests within tech include cryptocurrency, IoT, and hardware projects. When not working on projects I enjoy sking, climbing, moutaineering and, more specifcally, the synergy created by technical problem solving and the setting of the beautful outdoors.   I appreciate the importance of DRY code, an agile workflow, and working with a team. </p>
   </div>
+  <!-- <div class="icons-cont">
+    <img class="icons" src="nodeJS.png">
+    <img class="icons" src="nodeJShex.png">
+  </div> -->
+  <div class="container">
+          <div class="row">
+              <div class="twelve column">
+                  <section>
+                      <div class="list-area">
+                          <h2>Set-up</h2>
+                          <ul class="iconList">
+                              <li>
+                                  <img class="icon" src="nodeJShex.png" alt="nodeJS.png">
+                              </li>
+                              <li>
+                                  <img class="icon" src="nodeJS.png" alt="JS">
+                              </li>
+                              <li>
+                                  <img class="icon" src="images/chrome.png" alt="Chrome">
+                              </li>
+                          </ul>
+                      </div>
+                  </section>
+              </div>
+          </div>
+          <div class="row">
+              <div class="twelve column">
+                  <section>
+                      <div class="list-area">
+                          <h4>Languages and Frameworks</h4>
+                          <ul class="iconList">
+                              <li>
+                                  <img class="icon" src="angularjs.png"   alt="angular">
+                              </li>
+                              <li>
+                                  <img class="icon" src="nodeJS.png" alt="JS">
+                              </li>
+                              <li>
+                                  <img class="icon" src="nodeJShex.png" alt="Node.js">
+                              </li>
+                              <li>
+                                  <img class="icon" src="jquery.png" alt="jQuery">
+                              </li>
+                              <li>
+                                  <img class="icon" src="html5.png" alt="HTML5">
+                              </li>
+                              <li>
+                                  <img class="icon" src="css.png" alt="CSS">
+                              </li>
+                              <li>
+                                  <img class="icon" src="arduino.png" alt="arduino">
+                              </li>
+                              <li>
+                                  <img class="icon" src="python.png" alt="python">
+                              </li>
+                      </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="twelve column">
+                  <section>
+                      <div class="list-area">
+                          <h2>Utilities</h2>
+                          <ul class="iconList">
+                              <li>
+                                  <img class="icon" src="git.png" alt="Git">
+                              </li>
+                              <li>
+                                  <img class="icon" src="npm.png" alt="npm">
+                              </li>
+                              <li>
+                                  <img class="icon" src="psql.png" alt="PostgreSQL">
+                              </li>
+                              <li>
+                                  <img class="icon" src="images/sass.png" alt="Sass">
+                              </li>
+                              <li>
+                                  <img class="icon" src="mongodb.png" alt="Mongo">
+                              </li>
+                              <li>
+                                  <img class="icon" src="express.png" alt="Express">
+                              </li>
+                          </ul>
+                      </div>
+                  </section>
+              </div>
+          </div>
+          <div class="row">
+              <div class="twleve column">
+                  <section>
+                      <div class="list-area">
+                          <h2>In Progress</h2>
+                          <ul class="iconList">
+                              <li>
+                                  <img class="icon" src="images/react.png" alt="React">
+                              </li>
+                              <li>
+                                  <img class="icon" src="images/webpack-ConvertImage.png" alt="Webpack">
+                              </li>
+                          </ul>
+                      </div>
+                  </section>
+              </div>
+          </div>
+      </div>
 <div class="container">
   <div class="row">
     <div class="col s12 m6">
@@ -108,8 +224,9 @@ Angular JS,  Ionic, Cordova, NodeJS, ExpressJS, Javascript, PostgreSQL, Raspberr
          <p>Angular JS, Javascript, PostgreSQL, AJAX, NodeJS, ExpressJS, Materialize, CSS, </p>
       </div>
       <div class="card-action">
-        <a href="#"><img src="github-logo">Deployed</a>
-        <a href="#">Git Hub</a>
+        <a class="waves-effect waves-light btn black" href="http://sunshine-daydream.surge.sh"><i class="material-icons" >open_in_browser</i>DEPLOYED</a>
+        <a class="waves-effect waves-light btn black" href="https://github.com/StephenHanzlik/ghostTowns"><img src="github-logo.png">GITHUB</a>
+
       </div>
     </div>
   </div>
@@ -119,7 +236,7 @@ Angular JS,  Ionic, Cordova, NodeJS, ExpressJS, Javascript, PostgreSQL, Raspberr
     <p> I am the footer, and you have scroll down to see me.</p>
   </div>
 </div>
-  <footer class="page-footer orange">
+  <!-- <footer class="page-footer orange">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -153,7 +270,7 @@ Angular JS,  Ionic, Cordova, NodeJS, ExpressJS, Javascript, PostgreSQL, Raspberr
       Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
 
   <!--  Scripts-->
