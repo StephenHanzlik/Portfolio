@@ -61,6 +61,29 @@ body{ margin:0px 0px; }
 .git-logo{
   margin-right: 10px;
 }
+.nav-flex{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-icon{
+  height: 2.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+.card-image-custom {
+  height: 317px;
+}
+.black-card-text{
+  /*color: black !important;*/
+  background-color: black;
+  opacity: .7;
+}
+.icon-cont{
+  margin-top: -70px;
+  padding-bottom: 30px;
+}
 h1{
   font-family: sans-serif;
 }

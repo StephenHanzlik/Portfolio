@@ -29,7 +29,13 @@
         <!-- <div class="col s8"></div> -->
         <div class="col s8 m8"></div>
         <!-- <img class="github-logo col s1 m2" src="github-logo.png"> -->
-        <a class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons">add</i></a>
+        <div class="left-nav nav-text col s1 m2 nav-flex">
+          <!-- <p>Github</p>
+          <p>-   -    -</p>
+          <p>LinkedIn</p> -->
+          <a href="https://github.com/StephenHanzlik"><img class="nav-icon" src="github-sign.png"></a>
+          <a href="https://www.linkedin.com/in/stephenhanzlik"><img class="nav-icon" src="linkedin-sign.png"></a>
+      </div>
     </div>
     <!-- <nav class="nav-bar" role="navigation">
       <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo nav-text">STEPHEN HANZLIK</a>
@@ -57,7 +63,7 @@
     <img class="icons" src="nodeJS.png">
     <img class="icons" src="nodeJShex.png">
   </div> -->
-  <div class="container">
+  <div class="container icon-cont">
           <div class="row">
               <div class="col s12">
                       <div class="list-area">
@@ -88,7 +94,7 @@
                                   <img class="icon" src="css.png" alt="CSS">
                               </li>
                               <li>
-                                  <img class="icon" src="arduino.png" alt="arduino">
+                                  <img class="icon" src="arduino2.png" alt="arduino">
                               </li>
                               <li>
                                   <img class="icon" src="python.png" alt="python">
@@ -102,7 +108,7 @@
               <div class="col s12">
                       <div class="list-area">
                         <div class="icon-title">
-                          <h5>Utilities</h5>
+                          <h5>Other Tools and Utilities</h5>
                         </div>
                         <div class="icons-style">
                           <ul class="iconList">
@@ -113,10 +119,13 @@
                                   <img class="icon" src="npm.png" alt="npm">
                               </li>
                               <li>
+                                  <img class="icon" src="heroku.png" alt="Heroku">
+                              </li>
+                              <li>
                                   <img class="icon" src="psql.png" alt="PostgreSQL">
                               </li>
                               <li>
-                                  <img class="icon" src="images/sass.png" alt="Sass">
+                                  <img class="icon" src="raspberry.png" alt="Raspberry">
                               </li>
                               <li>
                                   <img class="icon" src="mongodb.png" alt="Mongo">
@@ -137,31 +146,51 @@
         <div class="card-image">
           <img src="weather-crop.jpg">
           <span class="card-title">Black Throated Wind</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
+          <!-- <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a> -->
         </div>
         <div class="card-content">
-          <p>Black Throated Wind is a weather app that utilizes a backyard Arduino weather station as well as API calls and widgets to quickly display pertinent information</p>
+          <p class="card-description">-- Constructed and programed Arduino weather station components to export data to local node server.</p>
+          <p class="card-description">-- Developed Angular widgets that function as their own individual single page apps.</p>
+          <p class="card-description"><strike>-- Integrated Weather Underground, SMS, and Facebook data export features.</strike> IN PROGRESS</p>
+          <p class="card-description">-- Provided users with access to data from a variety of weather APIs.</p>
           <br><br>
           <p>Technologies:</p>
-           <p>Angular JS, Javascript, NodeJS, ExpressJS, PostgreSQL, AJAX, Arduino, Materialize, CSS</p>
+           <p>Angular JS, Javascript, NodeJS, ExpressJS, MongoDB, AJAX, Arduino, Materialize, CSS</p>
+        </div>
+        <div class="card-action">
+          <!-- <i class="material-icons" >open_in_browser</i> -->
+          <a class="waves-effect waves-light btn black" href="http://sunshine-daydream.surge.sh">DEPLOYED</a>
+          <!-- <img class="git-icon" src="github-logo.png"> -->
+          <a class="waves-effect waves-light btn black btn-flex" href="https://github.com/StephenHanzlik/weatherApp">GITHUB</a>
+
         </div>
       </div>
     </div>
    <div class="col s12 m6">
      <div class="card">
        <div class="card-image">
-         <img src="welcome.jpg">
-         <span class="card-title">PiOS Media Server</span>
-         <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+         <img class="card-image-custom" src="pios.png">
+         <span class="card-title black-card-text">PiOS Media Server</span>
+         <!-- <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a> -->
        </div>
        <div class="card-content">
-         <p class="card-description">PiOS consists of  an Ionic iOS app, which gives you the ability to stream HD video from a secure PiOS Media Server directly to your iOS device,  and a browser based content distribution interface. </p>
+         <p class="card-description">-- Created and Ionic iOS App that allows user to stream HD video from our secure server.</p>
+         <p class="card-description">--Built a browser based content distribution interface to allow users to distribute data to multiple devices.</p>
+         <p class="card-description">--Developed clients profiles and search feature to allow users to identify and quickly find content.</p>
+
          <br><br>
          <p>Technologies:</p>
           <p>Angular JS,  Ionic, Cordova, NodeJS, ExpressJS, Javascript, PostgreSQL, Raspberry Pi, CSS</p>
          <!-- <ul>
            <li></li>
         </ul> -->
+       </div>
+       <div class="card-action">
+         <!-- <i class="material-icons" >open_in_browser</i> -->
+         <a class="waves-effect waves-light btn black disabled" href="http://sunshine-daydream.surge.sh">DEPLOYED</a>
+         <!-- <img class="git-icon" src="github-logo.png"> -->
+         <a class="waves-effect waves-light btn black btn-flex" href="https://github.com/StephenHanzlik/PiOS">GITHUB</a>
+
        </div>
      </div>
    </div>
@@ -172,7 +201,7 @@
       <div class="card-image">
         <img src="welcome.jpg">
         <span class="card-title">Egg-Pi Media Server</span>
-        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        <!-- <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a> -->
       </div>
       <div class="card-content">
         <p class="card-description">Egg-Pi is designed to allow users to easily and securely share and stream files across a secure wireless LAN.</p>
@@ -183,14 +212,21 @@
           <li></li>
        </ul> -->
       </div>
+      <div class="card-action">
+        <!-- <i class="material-icons" >open_in_browser</i> -->
+        <a class="waves-effect waves-light btn black disabled" href="http://sunshine-daydream.surge.sh">DEPLOYED</a>
+        <!-- <img class="git-icon" src="github-logo.png"> -->
+        <a class="waves-effect waves-light btn black btn-flex" href="https://github.com/StephenHanzlik/q2pi">GITHUB</a>
+
+      </div>
     </div>
   </div>
   <div class="col s12 m6">
     <div class="card">
       <div class="card-image">
-        <img src="sunshine2.png">
-        <span class="card-title">Sunshine Daydream</span>
-        <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
+        <img class="card-image-custom" src="sunshine2.png">
+        <span class="card-title black-card-text">Sunshine Daydream</span>
+        <!-- <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a> -->
       </div>
       <div class="card-content">
         <p>Sunshine Daydream allows users to interactively graph information pertaining to current snowpack conditions returned from AJAX calls to data collected from backcountry SNOTEL stations. </p>
@@ -199,8 +235,10 @@
          <p>Angular JS, Javascript, PostgreSQL, AJAX, NodeJS, ExpressJS, Materialize, CSS, </p>
       </div>
       <div class="card-action">
-        <a class="waves-effect waves-light btn black" href="http://sunshine-daydream.surge.sh"><i class="material-icons" >open_in_browser</i>DEPLOYED</a>
-        <a class="waves-effect waves-light btn black" href="https://github.com/StephenHanzlik/ghostTowns"><img class="git-icon" src="github-logo.png">GITHUB</a>
+        <!-- <i class="material-icons" >open_in_browser</i> -->
+        <a class="waves-effect waves-light btn black" href="http://sunshine-daydream.surge.sh">DEPLOYED</a>
+        <!-- <img class="git-icon" src="github-logo.png"> -->
+        <a class="waves-effect waves-light btn black btn-flex" href="https://github.com/StephenHanzlik/ghostTowns">GITHUB</a>
 
       </div>
     </div>
@@ -208,7 +246,9 @@
 </div>
 </div>
   <div id="footer">
-    <p> I am the footer, and you have scroll down to see me.</p>
+    <!-- <p> I am the footer, and you have scroll down to see me.</p> -->
+    <a href="https://github.com/StephenHanzlik"><img class="nav-icon" src="github-sign.png"></a>
+    <a href="https://www.linkedin.com/in/stephenhanzlik"><img class="nav-icon" src="linkedin-sign.png"></a>
   </div>
 </div>
   <!-- <footer class="page-footer orange">
