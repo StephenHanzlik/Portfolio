@@ -32,6 +32,13 @@
       stopPropagation: false // Stops event propagation
     });
 
+    $("#learn-more").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#about").offset().top
+        },
+        'slow');
+    });
+
   });
 
 

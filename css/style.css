@@ -124,7 +124,7 @@ h1{
   letter-spacing: 2.5px;
   font-weight: 590;
   margin-bottom: -  px;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 .sub-head{
     font-family: "adobe-garamond-pro";
@@ -133,10 +133,14 @@ h1{
     text-transform: none;
     letter-spacing: 1.5px;
     font-weight: 380;
+    margin-bottom: -24px;
     font-style: italic;
     color: #fff;
     /*margin: 10px auto;*/
     /*margin-bottom: 60px;*/
+}
+#project-cont{
+  margin-top: -20px;
 }
 .nav-text{
   font-family: sans-serif;;
