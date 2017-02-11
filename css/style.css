@@ -58,13 +58,9 @@ body{ margin:0px 0px; }
 .nav-text{
   font-family: sans-serif;
 }
-.github-logo {
-  /*width: px;*/
-  width: 10%;
-  height: 10px;
-  align-self: flex-start;
+.git-logo{
+  margin-right: 10px;
 }
-
 h1{
   font-family: sans-serif;
 }
@@ -84,12 +80,12 @@ h1{
     padding-right: 1.5rem;
 }
 .iconList li .icon {
-    height: 5rem;
+    height: 3.3rem !important;
     transition: all 1s;
 }
 
 .iconList li .icon:hover {
-    height: 6.5rem;
+    height: 5rem !important;
     -webkit-filter: invert(.8);
 }
 
@@ -157,6 +153,14 @@ h1{
 }
 .card-description{
   padding-bottom: 20px;
+}
+.icon-title {
+  display: flex;
+  justify-content: center;
+}
+.icons-style {
+  display: flex;
+  justify-content: center;
 }
 /*.nav{
   display: flex;
